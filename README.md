@@ -64,14 +64,16 @@ root@<container-id>$
 
 ## What Else Can I Do?
 
-Create a Dockerfile for nodejs. First, create a file named 'Dockerfile':
-```
+Create a nodejs image using a Dockerfile. First, create a file named 'Dockerfile':
+```bash
+$ cat <<EOF > Dockerfile
 FROM ubuntu:trusty
 
 RUN apt-get install -y nodejs
+EOF
 ```
 
-Build an image!
+Build the image!
 ```bash
 $ docker build -t yourname/nodejs .
 ```
@@ -95,7 +97,7 @@ Then, start a nodejs container using that directory as a volume, redirecting por
 $ docker run -v $(pwd)/source:/source -p 8080:8000 yourname/nodejs nodejs /source/main.js' 
 ```
 
-Point your browser to http://localhost:8080. You should get a response from you node application.
+Point your browser to [http://localhost:8080](http://localhost:8080). You should get a response from your node application.
 
 ## Where To Go From Here
 
