@@ -1,0 +1,3362 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        72, 
+        24
+      ], 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.041931867599487305
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Let's play with Docker!", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# First thing we need is an image.", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# We'll pull the official ubuntu:trusty image from the Docker Index.", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker pull ubuntu:trusty", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02237701416015625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[2K\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0001380443572998047
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Pulling repository ubuntu\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0011110305786132812
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.379734945297241
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n\u001b[0A\u001b[2K\r99ec81b80c55: Pulling image (trusty) from ubuntu \r\u001b[0B\u001b[1A\u001b[2K\r99ec81b80c55: Pulling image (trusty) from ubuntu, endpoint: https://cdn-registry-1.docker.io/v1/ \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3107351303100586
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r99ec81b80c55: Pulling dependent layers \r\u001b[1B\r\n\u001b[0A\u001b[2K\r511136ea3c5a: Pulling metadata \r\u001b[0B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3414300918579102
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r511136ea3c5a: Pulling fs layer \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.28121185302734375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r511136ea3c5a: Downloading    512 B/10.24 kB 13s\r\u001b[1B\u001b[1A\u001b[2K\r511136ea3c5a: Downloading 1.024 kB/10.24 kB 6s\r\u001b[1B\u001b[1A\u001b[2K\r511136ea3c5a: Downloading 1.536 kB/10.24 kB 3s\r\u001b[1B\u001b[1A\u001b[2K\r511136ea3c5a: Download complete \r\u001b[1B\r\n\u001b[0A\u001b[2K\r5e66087f3ffe: Pulling metadata \r\u001b[0B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0488060474395752
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Pulling fs layer \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.17651686668396
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 527.9 kB/67.48 MB 2m39s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0347428798675537
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 1.056 MB/67.48 MB 1m33s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03232698440551758
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 1.585 MB/67.48 MB 1m12s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03388409614562988
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 2.113 MB/67.48 MB 1m1s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03250222206115723
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 2.641 MB/67.48 MB 54s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0402210235595703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  3.17 MB/67.48 MB 50s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03104000091552734
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 3.698 MB/67.48 MB 46s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.06258506774902344
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 4.227 MB/67.48 MB 45s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.01175704002380371
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 4.755 MB/67.48 MB 42s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02556495666503906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 5.283 MB/67.48 MB 40s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03816204071044922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 5.812 MB/67.48 MB 39s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03605704307556152
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  6.34 MB/67.48 MB 37s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02239398956298828
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 6.868 MB/67.48 MB 36s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02434520721435547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 7.397 MB/67.48 MB 35s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0367870807647705
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 7.925 MB/67.48 MB 34s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02853398323059082
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 8.453 MB/67.48 MB 34s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0198469638824463
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 8.982 MB/67.48 MB 33s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03135805130004883
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  9.51 MB/67.48 MB 32s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03551201820373535
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 10.04 MB/67.48 MB 32s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03023605346679688
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 10.57 MB/67.48 MB 31s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03296093940734863
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  11.1 MB/67.48 MB 31s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03102784156799316
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 11.62 MB/67.48 MB 30s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0640190124511719
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 12.15 MB/67.48 MB 30s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0165060043334961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 12.68 MB/67.48 MB 29s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03916101455688477
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 13.21 MB/67.48 MB 29s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03216009140014648
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 13.74 MB/67.48 MB 28s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03720002174377441
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 14.27 MB/67.48 MB 28s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02895002365112305
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 14.79 MB/67.48 MB 27s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03578810691833496
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 15.32 MB/67.48 MB 27s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03452186584472656
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 15.85 MB/67.48 MB 27s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0420330047607422
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 16.38 MB/67.48 MB 26s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03464393615722656
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  16.9 MB/67.48 MB 26s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04169087409973145
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 17.43 MB/67.48 MB 25s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04620413780212402
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 17.96 MB/67.48 MB 25s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0301018238067627
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 18.49 MB/67.48 MB 25s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0322559356689453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 19.02 MB/67.48 MB 24s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03189306259155273
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 19.55 MB/67.48 MB 24s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0415449619293213
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 20.07 MB/67.48 MB 24s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0196979522705078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  20.6 MB/67.48 MB 23s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02086405754089355
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 21.13 MB/67.48 MB 23s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04525713920593262
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 21.66 MB/67.48 MB 23s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0204880714416504
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 22.19 MB/67.48 MB 22s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04763798713684082
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 22.72 MB/67.48 MB 22s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0456071376800537
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 23.24 MB/67.48 MB 22s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03609495162963867
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 23.77 MB/67.48 MB 21s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04014496803283691
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  24.3 MB/67.48 MB 21s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0352280616760254
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 24.83 MB/67.48 MB 21s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0434370517730713
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 25.36 MB/67.48 MB 21s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04894499778747559
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 25.89 MB/67.48 MB 20s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04108314514160156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 26.41 MB/67.48 MB 20s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04414491653442383
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 26.94 MB/67.48 MB 20s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0416229248046875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 27.47 MB/67.48 MB 20s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03954200744628906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading    28 MB/67.48 MB 19s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03593497276306152
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 28.53 MB/67.48 MB 19s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04972796440124512
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 29.06 MB/67.48 MB 19s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03666715621948242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 29.58 MB/67.48 MB 18s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04053597450256348
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 30.11 MB/67.48 MB 18s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04396395683288574
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 30.64 MB/67.48 MB 18s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04673104286193848
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 31.17 MB/67.48 MB 18s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03627185821533203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  31.7 MB/67.48 MB 17s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04227118492126465
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 32.23 MB/67.48 MB 17s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0326509952545166
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 32.75 MB/67.48 MB 17s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04996590614318848
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 33.28 MB/67.48 MB 16s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04544692039489746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 33.81 MB/67.48 MB 16s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03952007293701172
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 34.34 MB/67.48 MB 16s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0391500473022461
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 34.87 MB/67.48 MB 16s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04599695205688477
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  35.4 MB/67.48 MB 15s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04743008613586426
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 35.93 MB/67.48 MB 15s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04496197700500488
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 36.45 MB/67.48 MB 15s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0712129592895508
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 36.98 MB/67.48 MB 15s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02568402290344238
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 37.51 MB/67.48 MB 14s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03737192153930664
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 38.04 MB/67.48 MB 14s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04710297584533691
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 38.57 MB/67.48 MB 14s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0393789291381836
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  39.1 MB/67.48 MB 13s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04728989601135254
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 39.62 MB/67.48 MB 13s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04370503425598145
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 40.15 MB/67.48 MB 13s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04445700645446777
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 40.68 MB/67.48 MB 13s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04766993522644043
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 41.21 MB/67.48 MB 12s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03811006546020508
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 41.74 MB/67.48 MB 12s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04871206283569336
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 42.27 MB/67.48 MB 12s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.06276206970214844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 42.79 MB/67.48 MB 12s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04318909645080566
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 43.32 MB/67.48 MB 11s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02629284858703613
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 43.85 MB/67.48 MB 11s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0642210006713867
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 44.38 MB/67.48 MB 11s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08861613273620605
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 44.91 MB/67.48 MB 11s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08339204788208008
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 45.44 MB/67.48 MB 10s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.05020384788513184
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 45.96 MB/67.48 MB 10s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0416980266571045
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 46.49 MB/67.48 MB 10s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03599791526794434
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 47.02 MB/67.48 MB 10s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0529120445251465
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 47.55 MB/67.48 MB 9s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04057602882385254
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 48.08 MB/67.48 MB 9s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04585294723510742
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 48.61 MB/67.48 MB 9s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04904489517211914
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 49.13 MB/67.48 MB 8s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03272919654846191
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 49.66 MB/67.48 MB 8s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03537397384643555
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 50.19 MB/67.48 MB 8s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04490594863891602
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 50.72 MB/67.48 MB 8s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03918914794921875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 51.24 MB/67.48 MB 7s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04671316146850586
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 51.77 MB/67.48 MB 7s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03067307472229004
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  52.3 MB/67.48 MB 7s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0504711151123047
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 52.83 MB/67.48 MB 7s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04074792861938477
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 53.36 MB/67.48 MB 6s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0630770206451416
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 53.89 MB/67.48 MB 6s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02980403900146484
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 54.41 MB/67.48 MB 6s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0500498294830322
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 54.94 MB/67.48 MB 6s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04412894248962402
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 55.47 MB/67.48 MB 5s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0359621524810791
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading    56 MB/67.48 MB 5s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04624300003051758
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 56.53 MB/67.48 MB 5s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03611783981323242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 57.06 MB/67.48 MB 5s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0433948516845703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 57.58 MB/67.48 MB 4s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0385268211364746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 58.11 MB/67.48 MB 4s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0402669429779053
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 58.64 MB/67.48 MB 4s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.06676392555236816
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 59.17 MB/67.48 MB 4s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0217200756072998
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  59.7 MB/67.48 MB 3s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0460651397705078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 60.23 MB/67.48 MB 3s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04735093116760254
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 60.76 MB/67.48 MB 3s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0468550205230713
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 61.28 MB/67.48 MB 3s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04335813522338867
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 61.81 MB/67.48 MB 2s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0500629425048828
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 62.34 MB/67.48 MB 2s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03991799354553223
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 62.87 MB/67.48 MB 2s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03954510688781738
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  63.4 MB/67.48 MB 1s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03268890380859375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 63.93 MB/67.48 MB 1s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04765706062316895
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 64.45 MB/67.48 MB 1s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0356870174407959
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 64.98 MB/67.48 MB 1s\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04773406982421875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 65.51 MB/67.48 MB 0\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0917429447174072
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 66.04 MB/67.48 MB 0\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0112520694732666
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 66.57 MB/67.48 MB 0\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04536705017089844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading  67.1 MB/67.48 MB 0\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.07502713203430176
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Downloading 67.48 MB/67.48 MB\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0076920509338379
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r5e66087f3ffe: Download complete \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005409717559814453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n\u001b[0A\u001b[2K\r4d26dd3ebc1c: Pulling metadata \r\u001b[0B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0668749809265137
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r4d26dd3ebc1c: Pulling fs layer \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3968930244445801
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 3.637 kB/71.27 kB 1s\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 7.733 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 11.83 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 15.93 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 20.03 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 24.12 kB/71.27 kB 0\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.008413076400756836
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 28.22 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 32.26 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 36.36 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 40.45 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 44.55 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 48.65 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 52.74 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 56.84 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 60.93 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 65.03 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 69.12 kB/71.27 kB 0\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 71.27 kB/71.27 kB\r\u001b[1B\u001b[1A\u001b[2K\r4d26dd3ebc1c: Downloading 71.27 kB/71.27 kB\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0377009868621826
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\r4d26dd3ebc1c: Download complete \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005121231079101562
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n\u001b[0A\u001b[2K\rd4010efcfd86: Pulling metadata \r\u001b[0B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.5302932262420654
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\rd4010efcfd86: Pulling fs layer \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2740490436553955
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\rd4010efcfd86: Downloading     10 B/870 B 1m24s\r\u001b[1B\u001b[1A\u001b[2K\rd4010efcfd86: Downloading    870 B/870 B\r\u001b[1B\u001b[1A\u001b[2K\rd4010efcfd86: Downloading    870 B/870 B\r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0354109764099121
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1A\u001b[2K\rd4010efcfd86: Download complete \r\u001b[1B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00049591064453125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Pulling metadata \r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.6038510799407959
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Pulling fs layer \r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.4247581958770752
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading   188 kB/18.74 MB 1m38s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02769298553466797
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 376.4 kB/18.74 MB 53s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02056306838989258
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 564.8 kB/18.74 MB 37s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03750082015991211
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 753.2 kB/18.74 MB 30s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03611703872680664
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 941.6 kB/18.74 MB 25s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03090996742248535
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  1.13 MB/18.74 MB 22s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03520389556884766
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 1.318 MB/18.74 MB 20s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03361005783081055
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 1.507 MB/18.74 MB 18s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0316700553894043
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 1.695 MB/18.74 MB 16s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03155679702758789
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 1.884 MB/18.74 MB 15s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03947896957397461
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 2.072 MB/18.74 MB 15s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03313084602355957
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  2.26 MB/18.74 MB 14s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03171200752258301
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 2.449 MB/18.74 MB 13s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0359439468383789
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 2.637 MB/18.74 MB 12s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03110213279724121
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 2.826 MB/18.74 MB 12s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03210301399230957
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.014 MB/18.74 MB 11s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03947897911071777
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.203 MB/18.74 MB 11s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03689118385314941
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.391 MB/18.74 MB 11s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03188677787780762
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.579 MB/18.74 MB 10s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03767309188842773
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.768 MB/18.74 MB 10s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.025166988372802734
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 3.956 MB/18.74 MB 10s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02760910987854004
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 4.145 MB/18.74 MB 9s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03750700950622559
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 4.333 MB/18.74 MB 9s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03132697105407715
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 4.521 MB/18.74 MB 9s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03344197273254395
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  4.71 MB/18.74 MB 9s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03439089775085449
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 4.898 MB/18.74 MB 8s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03304216384887695
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 5.087 MB/18.74 MB 8s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03129383087158203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 5.275 MB/18.74 MB 8s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03980706214904785
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 5.464 MB/18.74 MB 8s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0367359733581543
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 5.652 MB/18.74 MB 8s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03604217529296875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  5.84 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0357388973236084
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.029 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03410096168518066
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.217 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03570815086364746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.406 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03002806663513184
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.594 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0361968994140625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.782 MB/18.74 MB 7s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03773614883422852
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 6.971 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03974101066589355
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 7.159 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0311760425567627
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 7.348 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03458996772766113
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 7.536 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03806492805480957
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 7.725 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03121800422668457
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 7.913 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03664299011230469
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 8.101 MB/18.74 MB 6s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03908105850219727
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 8.289 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03940101623535156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 8.478 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03209300994873047
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 8.666 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0387859058380127
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 8.855 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03614517211914062
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 9.043 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03957888603210449
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 9.232 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03606387138366699
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  9.42 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0342599868774414
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 9.608 MB/18.74 MB 5s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03369209289550781
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 9.797 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03423495292663574
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 9.985 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03388591766357422
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 10.17 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03386995315551758
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 10.36 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03806801795959473
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 10.55 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0341679573059082
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 10.74 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.038826904296875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 10.93 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03918694496154785
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 11.12 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03026599884033203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  11.3 MB/18.74 MB 4s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03764004707336426
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 11.49 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03352900505065918
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 11.68 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03164501190185547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 11.87 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03298398017883301
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 12.06 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.035408935546875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 12.25 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03772398948669434
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 12.43 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0328919506072998
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 12.62 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03843303680419922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 12.81 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03846212387084961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading    13 MB/18.74 MB 3s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03926416397094727
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 13.19 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03678103446960449
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 13.38 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03619094848632812
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 13.57 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03198309898376465
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 13.75 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03804512977600098
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 13.94 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03185315132141113
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 14.13 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03747912406921387
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 14.32 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03121920585632324
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 14.51 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03121491432189941
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  14.7 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03110308647155762
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 14.88 MB/18.74 MB 2s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03358407974243164
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 15.07 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03738494873046875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 15.26 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03281184196472168
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 15.45 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03195185661315918
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 15.64 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03683992385864258
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 15.83 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03373309135437012
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 16.01 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03222699165344238
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  16.2 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03393406867980957
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 16.39 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03551597595214844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 16.58 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03119702339172363
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 16.77 MB/18.74 MB 1s\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03510805130004883
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 16.96 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0350229263305664
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 17.15 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03754111289978027
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 17.33 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03371997833251953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 17.52 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0323261833190918
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 17.71 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0366592025756836
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading  17.9 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0391170597076416
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 18.09 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03018207550048828
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 18.28 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03626986503601074
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 18.46 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.03921290397644043
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 18.65 MB/18.74 MB 0\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.021562814712524414
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Downloading 18.74 MB/18.74 MB\r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0339438819885254
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[5A\u001b[2K\r99ec81b80c55: Download complete \r\u001b[5B", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003180503845214844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Note that we actually downloaded 5 different images (hashes)", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# So, the ubuntu:trusty image is actually made up of 5 different parent delta images", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# We can see which images are available locally by calling 'docker images'", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker images", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.023659944534301758
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "REPOSITORY  ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0013670921325683594
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "TAG     ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00015807151794433594
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "IMAGE ID      ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00012493133544921875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "CREATED     ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0008461475372314453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "VIRTUAL SIZE", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004951953887939453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 3.409385681152344e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ubuntu      ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00020003318786621094
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "trusty  99ec81b80c55  7 days ago  266 MB\r\n\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Now, let's create an interactive container running bash", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker run -i -t ubuntu:trusty /bin/bash", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.24566006660461426
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# That was pretty quick, huh? :-)", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Let's do some stuff with the file system", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ls -lrt /", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.008903026580810547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 68", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001371145248413086
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00014495849609375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "drwxr-xr-x   2 root root 4096 Apr 10 22:12 mnt\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00029397010803222656
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "drwxr-xr-x   2 root root 4096 Apr 10 22:12 home\r\ndrwxr-xr-x   2 root root 4096 Apr 10 22:12 boot\r\ndrwxr-xr-x  10 root root 4096 Apr 16 20:35 usr\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 srv\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 opt\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 media\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 lib64\r\ndrwxr-xr-x   7 root root 4096 Apr 16 20:36 run\r\ndrwxr-xr-x  12 root root 4096 Apr 16 20:36 lib\r\ndrwxr-xr-x  11 root root 4096 Apr 16 20:36 var\r\ndrwx------   2 root root 4096 Apr 16 20:36 root\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:36 bin\r\ndrwxr-xr-x   2 root root 4096 Apr 24 16:17 sbin\r\ndrwxrwxrwt   2 root root 4096 Apr 24 16:17 tmp\r\ndrwxr-xr-x  61 root root 4096 Apr 25 14:55 etc\r\ndr-xr-xr-x 108 root root    0 Apr 25 14:55 proc\r\ndr-xr-xr-x  13 root root    0 Apr 25 14:55 sys\r\ndrwxr-xr-x   4 root root 4096 Apr 25 14:55 dev\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "echo 'Hello World!' > hello.txt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ls -lrt /", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.005916118621826172
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 72", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.000286102294921875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004200935363769531
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "drwxr-xr-x   2 root root 4096 Apr 10 22:12 mnt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003418922424316406
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00015282630920410156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "drwxr-xr-x   2 root root 4096 Apr 10 22:12 home\r\ndrwxr-xr-x   2 root root 4096 Apr 10 22:12 boot\r\ndrwxr-xr-x  10 root root 4096 Apr 16 20:35 usr\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 srv\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 opt\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 media\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 lib64\r\ndrwxr-xr-x   7 root root 4096 Apr 16 20:36 run\r\ndrwxr-xr-x  12 root root 4096 Apr 16 20:36 lib\r\ndrwxr-xr-x  11 root root 4096 Apr 16 20:36 var\r\ndrwx------   2 root root 4096 Apr 16 20:36 root\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:36 bin\r\ndrwxr-xr-x   2 root root 4096 Apr 24 16:17 sbin\r\ndrwxrwxrwt   2 root root 4096 Apr 24 16:17 tmp\r\ndrwxr-xr-x  61 root root 4096 Apr 25 14:55 etc\r\ndr-xr-xr-x 108 root root    0 Apr 25 14:55 proc\r\ndr-xr-xr-x  13 root root    0 Apr 25 14:55 sys\r\ndrwxr-xr-x   4 root root 4096 Apr 25 14:55 dev\r\n\u001b[1m-rw-r--r--   1 root root   13 Apr 25 14:55 hello.txt\u001b[22m\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cat hello.txt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nHello World!\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Now, let's create a new container from the same image", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nroot@740cc8f26474:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker run -i -t ubuntu:trusty /bin/bash", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.16048598289489746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@ad6ad66aa483:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "ls -lrt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.006236076354980469
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 68\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0012080669403076172
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "drwxr-xr-x   2 root root 4096 Apr 10 22:12 mnt\r\ndrwxr-xr-x   2 root root 4096 Apr 10 22:12 home\r\ndrwxr-xr-x   2 root root 4096 Apr 10 22:12 boot\r\ndrwxr-xr-x  10 root root 4096 Apr 16 20:35 usr\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 srv\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 opt\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 media\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:35 lib64\r\ndrwxr-xr-x   7 root root 4096 Apr 16 20:36 run\r\ndrwxr-xr-x  12 root root 4096 Apr 16 20:36 lib\r\ndrwxr-xr-x  11 root root 4096 Apr 16 20:36 var\r\ndrwx------   2 root root 4096 Apr 16 20:36 root\r\ndrwxr-xr-x   2 root root 4096 Apr 16 20:36 bin\r\ndrwxr-xr-x   2 root root 4096 Apr 24 16:17 sbin\r\ndrwxrwxrwt   2 root root 4096 Apr 24 16:17 tmp\r\ndrwxr-xr-x  61 root root 4096 Apr 25 14:55 etc\r\ndr-xr-xr-x 111 root root    0 Apr 25 14:55 proc\r\ndr-xr-xr-x  13 root root    0 Apr 25 14:55 sys\r\ndrwxr-xr-x   4 root root 4096 Apr 25 14:55 dev\r\nroot@ad6ad66aa483:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cat hello.txt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\ncat: ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00015497207641601562
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "hello.txt: No such file or directory\r\nroot@ad6ad66aa483:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Since this is a new container, all our old changes are gone.", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nroot@ad6ad66aa483:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Now, let's create a new image from our first container (the one with hello.txt)", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# We can use 'docker ps' to see all running containers", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker ps", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.02227497100830078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "CONTAINER ID", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00014281272888183594
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "        ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.000141143798828125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "IMAGE", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0009980201721191406
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "        ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003371238708496094
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "       ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00011587142944335938
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "COMMAND   ...\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006260871887207031
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# Hmm, all stopped. We can add -a to see all containers that ever existed", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker ps -a", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.01848292350769043
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "CONTAINER ID", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00031304359436035156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "        ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0001468658447265625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "IMAGE", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0011179447174072266
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "        ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00019407272338867188
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "       ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00015020370483398438
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "COMMAND   ...\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0001327991485595703
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ad6ad66aa483", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005631446838378906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "        ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00015997886657714844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ubuntu:trusty", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.193450927734375e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "       /bin/bash ...\r\n740cc8f26474        ubuntu:trusty       /bin/bash ...\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# There they are! Let's see the changes from the older container with 'docker diff'", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker diff 740cc8f26474", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.9718799591064453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1mA /hello.txt\u001b[22m\r\nA /.bash_history\r\nC /dev\r\nC /dev/stderr\r\nC /dev/console\r\nC /dev/stdout\r\nC /dev/ptmx\r\nC /dev/stdin\r\nC /dev/core\r\nC /dev/fd\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0009629726409912109
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# OK, now let's create a new image using 'docker commit'", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker commit 740cc8f26474 ericweikl/helloworld", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.9678969383239746
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "cd7f1fec6b1f0419a89acf96bdf3a71b048f3c27476251fb7c3d5fe0a29fc0d1\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0009000301361083984
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker images", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04572415351867676
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "REPOSITORY            ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003910064697265625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "TAG", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0003120899200439453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "     ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00011110305786132812
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "IMAGE ID      ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0009968280792236328
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "CREATED         ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0001659393310546875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "VIRTUAL SIZE", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0010662078857421875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.3126602172851562e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ericweikl/helloworld  ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 4.887580871582031e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "latest  ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "cd7f1fec6b1f  ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "6 seconds ago   ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.3126602172851562e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "266 MB", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.09808349609375e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 2.09808349609375e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "ubuntu                trusty  99ec81b80c55  42 hours ago    266 MB\r\n\r\n$ ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "docker run -i -t ericweikl/helloworld /bin/bash", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.16971993446350098
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@e91240de0a8f:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cat hello.txt", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nHello World!\r\n", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0011630058288574219
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "root@e91240de0a8f:/# ", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "# THE END", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "5cf1a09e29c8445380a84ff914e42ee1"
+    }
+  ], 
+  "shell": "/bin/bash"
+}

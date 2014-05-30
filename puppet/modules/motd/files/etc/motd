@@ -1,9 +1,0 @@
-
-Welcome to your Docker playground!
-
-Try running an interactive container:
-
-$ docker run -i -t ubuntu:trusty /bin/bash
-
-This VM was created from https://github.com/ericweikl/docker-playground
-
