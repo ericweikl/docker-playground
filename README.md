@@ -2,6 +2,8 @@
 
 This repository is intended for people who want to test-drive [docker](http://docker.io). It provides a [Vagrant](http://www.vagrantup.com/) box with docker installed.
 
+If you're lazy, you can also just watch a [screencast](http://ericweikl.github.io/docker-playground/) to see docker in action a bit.
+
 ## Prerequisites
 
 * [Vagrant](http://www.vagrantup.com/downloads.html)
